@@ -37,6 +37,6 @@ print(len(r))
 # In string concatenation we can join two strings together
 ar="hello"
 br="world"
-cr = ar + " " + br
+cr = ar + " " +br
 print(cr)
 
