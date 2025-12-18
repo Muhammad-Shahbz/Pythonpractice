@@ -59,3 +59,12 @@ print("machine" not in str1) # it will return true
 print("Art" in str1) # it will return true 
 print("art" in str1) # it will return false becauase its case sensitive 
 print("intelligence" not in str1) # it will return falsse becausse intelligence is pressent
+
+# check substring in stsring
+str2 = "Python is powerfull language"
+print("powerfull" in str2) #it will return true
+print("java" in str2) # it will return false
+
+str3 = "python programming"
+print("z" in str3) # it will return false
+print("g" in str3) # it will return true
