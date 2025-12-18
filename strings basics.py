@@ -68,3 +68,14 @@ print("java" in str2) # it will return false
 str3 = "python programming"
 print("z" in str3) # it will return false
 print("g" in str3) # it will return true
+
+#built in string functions
+
+a = "PYTHON"
+print(a.lower()) # converts string to lowercase
+
+vb = "nice to meet you"
+print(vb.upper()) # converts string to uppercase
+
+"python language is easy".capitalize()
+"python language".title()
