@@ -177,3 +177,24 @@ print(f"Name: {name}, Age: {age}") # f string formating
 
 price = 99.099990
 print(f"Price: %.2f" % price)
+
+#escape characters in string
+print("Hello\tWorld") # \t is used for tab space
+print("Hello\nWorld") # \n is used for new line
+
+# Iterating through strings
+f = "Pyhton"
+for char in f:
+    print(char) # it will print each character in new line
+g = "Python"
+lst = list(g)
+print(lst)
+
+#encoding and decoding in strings
+# encoding is the process of converting string into bytes
+# decoding is the process of converting bytes back to string
+gh = "hello world"
+encoded = gh.encode("utf-8")
+print(encoded)
+decoded = encoded.decode("utf-8")
+print(decoded)
