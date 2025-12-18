@@ -79,3 +79,15 @@ print(vb.upper()) # converts string to uppercase
 
 "python language is easy".capitalize()
 "python language".title()
+
+#Python swacase() function is used capitalize the first letter of each word and lower case the other letters that are in upper case
+
+str4 = "hello WORLD"
+print(str4.swapcase())
+
+# Searching in strings
+ap = 'python'
+print(ap.find('t')) # it will return index of character 't' which is 2
+
+
+
