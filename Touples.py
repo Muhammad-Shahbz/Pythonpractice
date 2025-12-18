@@ -16,7 +16,7 @@
 # the differece between touple and sting is that string is used to store squence of characters while touple is used to store sequence of any type of data.
 
 
-# Norma Touple
+# Normal Touple
 t = (10,20,30,40,50)
 print(t)
 
