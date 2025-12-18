@@ -151,4 +151,29 @@ print(str16.rsplit(", ")) # it will split string at ',' and return list of fruit
 str17 = ("-".join(["2025", "12", "18"]))
 print(str17)
 
-print(str18
+str18 = "@".join(["optmetry", "ai", "com"])
+print(str18)
+
+# startswith() function checks if string starts with specified substring
+str19 = "artificial intelligence"
+print(str19.startswith("art")) # it will return true
+print(str19.startswith("int")) # it will return false
+
+#center() function center the string within specified width
+str20 = "hello python"
+print(str20.center(100)) # it will center the string within 100 characters width
+
+# ljust() function left justifies the string within specified width
+str21 = "hello ai engineer "
+print(str21.ljust(50))
+
+# Formate() functiion is used to formate string by placing values in placehlders
+name = "Yasir"
+age = 25
+intro = "My name is {} and i am {} years old".format(name, age)
+print(intro)
+
+print(f"Name: {name}, Age: {age}") # f string formating
+
+price = 99.099990
+print(f"Price: %.2f" % price)
