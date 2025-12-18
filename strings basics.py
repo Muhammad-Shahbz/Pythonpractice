@@ -1,8 +1,11 @@
 
 # A string is a squence of characters enclosed within single quotes
+
+
 print("hello world") # this is a basic print statment showing how to print in python
 a= "hello" #this is a string variable
 
+#multiple line string
 b = """im learning python from basic to advance level 
 as a key to become artificial intelligence engineer""" #this is multiline strings
 print(a)
@@ -40,3 +43,19 @@ br="world"
 cr = ar + " " +br
 print(cr)
 
+#String Repetition is done by multiplying string with integer
+
+print("Hi " * 3)
+
+print("Hi " *1 +"Shahbaz")
+print("welcome " *2 + "to " *2 + "Python")
+print("welcome\n " *2 + "to\n " *2 + "Python\n") # \n is used for new line
+
+# Membership operator in python in strings is used to check if a value exists in a string or not
+
+str1 = "Artificaial intelligence"
+print("intelligence" in str1) #it will return true
+print("machine" not in str1) # it will return true
+print("Art" in str1) # it will return true 
+print("art" in str1) # it will return false becauase its case sensitive 
+print("intelligence" not in str1) # it will return falsse becausse intelligence is pressent
