@@ -86,8 +86,57 @@ print(b) # it will print 2
 print(c) # it will print 34
 print(d) # it will print 45
 
+t = (1, [2,3])
+t[1][0]=99
+print(t) # touple is immutable but if it contains mutable eleneb=nts like list then we can change the value in the mutable element
 
+#for loop in touples 
+# touples can contain multiple vlaues and loops helps us to
+# read each value one by one
+#perform calculations
+#search data
+#Dsisplay values one by one
 
+#for loop syntax
+# for variable in touple-name:
+#     statement
+d
+t10 =(10,20,30,40)
+for x in t10:
+    print(x)  # it will print all values in touple one by one
+    # x will take each value of touple one by one and print it
+    # loop will continue until all values are printed
 
+t12 = ("Python", "java", "c")
+for lang in t12:
+    print("I love", lang) 
 
+t13 = (5,10,40)
+for i in range(len(t13)):
+    print("index", i,"value", t13[i]) # it will print index and value of each element
+    
+#loop with condition
+t14 = (10,20,3,40,5000)
+for value in t14:
+    if value > 40:
+        print("Large value:", value)
 
+t = (78,900),(45,43),(54,50)
+for a, b in t:
+    print("a:", a, "b:", b)
+    #it will print a and b values from each nested touple
+
+#While Loop in touples
+#what is iteration? iteration is the process of repeating a set of instructions
+# while loop basic syntax
+#index = 0 
+#hile index < len(index)
+  #statement
+  # statement +=1
+  
+
+    
+    
+        
+
+   
