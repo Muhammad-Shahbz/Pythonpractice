@@ -27,8 +27,34 @@ t1 = (20,) #comma is necesary to create single element touple
 print(t1)
 
 # Touples with different data types
-t2 = (10, "hello", 20.5, True)
+t2 = (10, "hello", 20.5, True) # any type of data can be stored in touple
 print(t2)
 
+#Touple wiith duplicate values
+t3 = (10,10,20,20, 30, 30)
+print(t3)
 
+# INDEXING AND Slicing in touples
+t4 = (10,20,30,40,50,60,50,70,80,90)
+print(t4[3]) # indexing
+print(t4[-1]) # negative indexing
+print(t4[:3]) # slicing
+print(t4[::2]) #slicing with steps
+
+
+#Nested Touples and accessing values
+t5 = (20, "hello", (45,56,67,78), "world")
+print(t5[::-1])
+print(t5[2:-1])
+
+#concotanation and repitation in touples
+t6 =("a","b","c",4, 5 ,6)
+t7 = ("d", "e","f",7,8,9,10)
+print(t6 + t7) # concotanation
+print(t6 * 2) # repitation
+
+#membership operator in touples
+t8 = (45,90,89,90,67)
+print(90 in t8)
+print((100 in t8)) # it will return false because 100 is not in touple
 
