@@ -55,8 +55,39 @@ print(t6 * 2) # repitation
 
 #membership operator in touples
 t8 = (45,90,89,90,67)
-print(90 in t8)
+print(90 in t8) #it will return true becuase 90 is in touple
 print((100 in t8)) # it will return false because 100 is not in touple
+
+# built in functions in touples
+t9 = (90,30,50,60,20,10)
+print(len(t9)) # length of touple
+print(max(t9)) # maximum value in touple
+print(min(t9)) # minimum value in touple
+print(sum(t9)) # sum of all valuses in touple
+print(sorted(t9)) # sorted touple meaning touple in ascending order
+print(reversed(t9)) # reversed touple
+print(tuple(range(1,11))) # touple with range of values 1 to 10
+print(t9.count(90)) #count specific values in touple
+print(t9.index(50)) # index of specific value in touple
+#converting list to touple and touple to list
+list1 = [10,10,90,80,70]
+touple1 = tuple(list1) # llist to touple conversion 
+print(touple1)
+
+touple2 = (23,"hello", 45,78)
+list2 = list(touple2) # touple to list conversion
+print(list2)
+
+#unpacking values in touples 
+t5 =(10,2,34,45)
+a, b, c,d =t5 
+print(a)
+print(b) # it will print 2
+print(c) # it will print 34
+print(d) # it will print 45
+
+
+
 
 
 
