@@ -134,6 +134,28 @@ for a, b in t:
   #statement
   # statement +=1
   
+# basic while loop with a touple
+t = (20,30,40,50,60,70)
+i = 0
+while i < len(t):
+    print(t[i])
+    i +=1 
+    
+    
+t = ("apple", "banana", "cherry")
+i = 0
+while i < len(t):
+    print(i, "->", t[i]) 
+    
+    i +=1
+
+ #0 -> apple
+ #1 -> banana
+ #2 -> cherry
+ 
+ 
+ 
+ 
 
     
     
