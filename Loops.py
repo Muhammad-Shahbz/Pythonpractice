@@ -114,4 +114,23 @@ for i in range(5):
     pass
 print("some usefull work5")
 
+num0 = int(input("Enter the number: "))
+rem = num0 % 2
+if(rem ==0):
+    print("EVEN")
+else:
+    print("odd")
+    
+a = int(input(" Enter the first number: "))
 
+b = int(input(" Enter the Second number: "))
+c= int(input(" Enter the Third number: "))
+
+if(a > b and a > c):
+    print(a, "is higher number")
+elif(b > a and b > c):
+    print(b, "is higher number")
+elif(c > a and c > b):
+    print(c, "is higher number")
+else:
+    print("invalid number")
